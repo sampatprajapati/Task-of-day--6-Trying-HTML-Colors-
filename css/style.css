@@ -1,0 +1,516 @@
+/*external css*/
+.a {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+}
+.a:hover {
+    background: red;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+.a1 {
+    background: aliceblue;
+}
+.a2 {
+    background: antiquewhite;
+}
+.a3 {
+    background: aqua;
+}
+.a4 {
+    background: aquamarine;
+}
+.a5 {
+    background: azure;
+}
+.a6 {
+    background: beige;
+}
+.a7 {
+    background: bisque;
+}
+.b {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+}
+.b:hover {
+    background: green;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.b1 {
+    background: Black;
+}
+.b2 {
+    background: BlanchedAlmond;
+}
+.b3 {
+    background: Blue;
+}
+.b4 {
+    background: BlueViolet;
+}
+.b5 {
+    background: Brown;
+}
+.b6 {
+    background: BurlyWood;
+}
+.b7 {
+    background: CadetBlue;
+}
+.c {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    transition: background 2s;
+    transform: rotate(0deg);
+}
+.c:hover {
+    background: purple;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    transform: rotate(135deg);
+}
+.c1 {
+    background: Chartreuse;
+}
+.c2 {
+    background: Chocolate;
+}
+.c3 {
+    background: Coral;
+}
+.c4 {
+    background: CornflowerBlue;
+}
+.c5 {
+    background: Cornsilk;
+}
+.c6 {
+    background: Crimson;
+}
+.c7 {
+    background: Cyan;
+}
+.d {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    transition: background 1s;
+    transform: rotate(0deg);
+}
+.d:hover {
+    background: deeppink;
+    transform: rotate(45deg);
+    transition-duration: 3s;
+}
+.d1 {
+    background: DarkBlue;
+}
+.d2 {
+    background: DarkCyan;
+}
+.d3 {
+    background: DarkGoldenRod;
+}
+.d4 {
+    background: DarkGray;
+}
+.d5 {
+    background: DarkGrey;
+}
+.d6 {
+    background: DarkGreen;
+}
+.d7 {
+    background: DarkKhaki;
+}
+.e {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    transition: background 1s;
+}
+.e:hover {
+    background: midnightblue;
+    border-radius: 100px;
+}
+.e1 {
+    background: DarkMagenta;
+}
+.e2 {
+    background: DarkOliveGreen;
+}
+.e3 {
+    background: DarkOrange;
+}
+.e4 {
+    background: DarkOrchid;
+}
+.e5 {
+    background: DarkRed;
+}
+.e6 {
+    background: DarkSalmon;
+}
+.e7 {
+    background: DarkSeaGreen;
+}
+.f {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    transition: background 1s;
+}
+.f:hover {
+    background: maroon;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.f1 {
+    background: DarkSlateBlue;
+}
+.f2 {
+    background: DarkSlateGray;
+}
+.f3 {
+    background: DarkSlateGrey;
+}
+.f4 {
+    background: DarkTurquoise;
+}
+.f5 {
+    background: DarkViolet;
+}
+.f6 {
+    background: DeepPink;
+}
+.f7 {
+    background: DeepSkyBlue;
+}
+.g {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    transition: background 1s;
+}
+.g:hover {
+    background: green;
+    border-bottom-right-radius: 180px;
+    border-top-left-radius: 180px;
+}
+.g1 {
+    background: DimGray;
+}
+.g2 {
+    background: DimGrey;
+}
+.g3 {
+    background: DodgerBlue;
+}
+.g4 {
+    background: FireBrick;
+}
+.g5 {
+    background: FloralWhite;
+}
+.g6 {
+    background: ForestGreen;
+}
+.g7 {
+    background: Fuchsia;
+}
+.h {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.h:hover {
+    width: 200px;
+    height: 200px;
+    border: solid 10px green;
+    background: Indigo;
+}
+.h1 {
+    background: Gainsboro;
+}
+.h2 {
+    background: GhostWhite;
+}
+.h3 {
+    background: Gold;
+}
+.h4 {
+    background: GoldenRod;
+}
+.h5 {
+    background: Gray;
+}
+.h6 {
+    background: Grey;
+}
+.h7 {
+    background: Green;
+}
+.h8 {
+    background: GreenYellow;
+}
+.h9 {
+    background: HoneyDew;
+}
+
+.i {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.i:hover {
+    width: 200px;
+    height: 200px;
+    border: dotted 10px black;
+    background: yellow;
+}
+.i1 {
+    background: HotPink;
+}
+.i2 {
+    background: IndianRed;
+}
+.i3 {
+    background: Indigo;
+}
+.i4 {
+    background: Ivory;
+}
+.i5 {
+    background: Khaki;
+}
+.i6 {
+    background: Lavender;
+}
+.i7 {
+    background: LavenderBlush;
+}
+.i8 {
+    background: LawnGreen;
+}
+.i9 {
+    background: LemonChiffon;
+}
+.i10 {
+    background: LightBlue;
+}
+.j {
+    width: 180px;
+    height: 180px;
+    border: 5px solid red;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.j:hover {
+    width: 100px;
+    height: 100px;
+    border: dotted 10px black;
+    background: purple;
+}
+.j1 {
+    background: LightCoral;
+}
+.j2 {
+    background: LightCyan;
+}
+.j3 {
+    background: LightGoldenRodYellow;
+}
+.j4 {
+    background: LightGray;
+}
+.j5 {
+    background: LightGrey;
+}
+.j6 {
+    background: LightGreen;
+}
+.j7 {
+    background: LightPink;
+}
+.j8 {
+    background: LightSalmon;
+}
+.j9 {
+    background: LightSeaGreen;
+}
+.j10 {
+    background: LightSkyBlue;
+}
+.k {
+    width: 100px;
+    height: 100px;
+    border: 5px dotted red;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.k:hover {
+    width: 150px;
+    height: 150px;
+    border: double 10px black;
+}
+.k1 {
+    background: LightSlateGray;
+}
+.k2 {
+    background: LightSteelBlue;
+}
+.k3 {
+    background: LightYellow;
+}
+.k4 {
+    background: Lime;
+}
+.k5 {
+    background: LimeGreen;
+}
+.k7 {
+    background: Linen;
+}
+.k8 {
+    background: Magenta;
+}
+.k9 {
+    background: Maroon;
+}
+.k10 {
+    background: MediumAquaMarine;
+}
+.k6 {
+    background: MediumBlue;
+}
+.l {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.l:hover {
+    border-radius: 30px;
+    background: yellow;
+    border: ridge 10px red;
+}
+.l1 {
+    background: MediumOrchid;
+}
+.l2 {
+    background: MediumPurple;
+}
+.l3 {
+    background: MediumSeaGreen;
+}
+.l4 {
+    background: MediumPurple;
+}
+.l5 {
+    background: MediumSpringGreen;
+}
+.l6 {
+    background: MediumTurquoise;
+}
+.l7 {
+    background: MediumSpringGreen;
+}
+.l8 {
+    background: MediumVioletRed;
+}
+.l9 {
+    background: MidnightBlue;
+}
+.l10 {
+    background: MintCream;
+}
+.s {
+    width: 150px;
+    height: 150px;
+    border: 5px dotted green;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+}
+.s:hover {
+    border-radius: 80px;
+    background: yellow;
+    border: outset 10px red;
+}
+.s1 {
+    background: MistyRose;
+}
+.s2 {
+    background: Moccasin;
+}
+.s3 {
+    background: NavajoWhite;
+}
+.s4 {
+    background: Navy;
+}
+.s5 {
+    background: OldLace;
+}
+.s6 {
+    background: Olive;
+}
+.s7 {
+    background: OliveDrab;
+}
+.s8 {
+    background: Orange;
+}
+.s9 {
+    background: OrangeRed;
+}
+.s10 {
+    background: Orchid;
+}
